@@ -101,7 +101,7 @@ log "Memulai konfigurasi server..."
 
 # Minta dan validasi input
 user_ip=$(get_input "Masukkan IP address (contoh: 192.168.1.1): " "" validate_ip)
-user_domain=$(get_input "Masukkan nama domain (contoh: smkeki.sch.id): " "" )
+user_domain=$(get_input "Masukkan nama domain (contoh: smkSyahjuddin.sch.id): " "" )
 mysql_root_password=$(get_input "Masukkan password untuk root MySQL: ")
 phpmyadmin_password=$(get_input "Masukkan password untuk phpMyAdmin: ")
 # Tambahan input untuk Samba
